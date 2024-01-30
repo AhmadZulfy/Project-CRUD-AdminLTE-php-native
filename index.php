@@ -148,7 +148,7 @@ window.location.href="pages/login.php"</script>';
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
-            <?php if($_SESSION['level']=='admin'){
+            <?php if($_SESSION['level']=='Admin'){
               ?>
           </a>
           <ul class="treeview-menu">
